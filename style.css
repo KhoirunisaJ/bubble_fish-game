@@ -1,0 +1,47 @@
+/* memastikan halaman sama disemua browser*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-size:cover;
+    font-style: "JustBubble";
+
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing:border-box;
+    background-image: url("bg0.png");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: Just Bubble;
+    font-size: 700%;
+    color: white;
+}
+button {
+    background: #FFF;
+    color: #6563ff;
+    border-radius: 5px;
+    padding: 15px 32px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    position: relative;
+    top: 100px;
+    right: 25px;
+}
+button:hover{
+    color: #fff;
+    background: #6563ff;
+}
+#canvas1{
+    width: 800px;
+    height:500px;
+    border: 2px solid white;
+    background-image: url("bg01.png");
+}
